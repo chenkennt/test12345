@@ -1,0 +1,12 @@
+﻿{
+   "tagRules": [
+      {
+         "tagNames": [ "h1" ],
+         "behavior": "Warning",
+         "messageFormatter": "H1 cannot contain attribute 'class': {1}.",
+         "customValidatorContractName": "h1_validator",
+         "openingTagOnly": true
+      }
+   ],
+    "rules": [ "code_validator" ]
+}
